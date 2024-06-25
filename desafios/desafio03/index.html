@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio imagens dinâmica</title>
+    <style>
+        body
+        {
+            font: normal 13pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Dinâmica</h1>
+    <p>Aqui irei fazer o teste de imagens dinâmica para ver se eu aprendi</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagem/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagem/paisagem-m.png" type="image/png">
+        <img src="imagem/paisagem-g.png" alt="Paisagem grande">
+    </picture>
+    
+</body>
+</html>
