@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio tabela</title>
+    <style>
+        body 
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table 
+        {
+            border-collapse: collapse;
+            width: 600px;
+            padding: 10px;
+            text-align: center;
+        }
+        caption 
+        {
+            padding: 10px;
+            font-weight: bold;
+        }
+        th,td 
+        {
+            border: 1px solid black;
+        }
+        .nome, .profissao
+        {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col>
+            <col>
+            <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Clara</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Técnico</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Veterinaria</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>
