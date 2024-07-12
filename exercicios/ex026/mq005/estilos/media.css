@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{
+    span#burguer 
+    {
+        text-align: start;
+    }
+
+    menu a 
+    {
+        text-align: start;
+        padding-left: 20px;
+    }
+
+    main
+    {
+        width: 92vw;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    img 
+    {
+        width: 680px;
+    }
+
+    article h2 
+    {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1200px) 
+{
+    span#burguer 
+    {
+        text-align: start;
+    }
+
+    menu a 
+    {
+        text-align: start;
+        padding-left: 20px;
+    }
+
+    main
+    {
+        width: 60vw;
+        text-align: center;
+    }
+
+    img 
+    {
+        width: 680px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    article h2 
+    {
+        font-size: 2.8em;
+        text-align: start;
+    }
+
+    article p
+    {
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+}
