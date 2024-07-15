@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) 
+@media screen and (min-width: 768px) and (max-width: 999px) 
 {
     span#burguer 
     {
@@ -30,17 +30,22 @@
     }
 }
 
-@media screen and (min-width: 1200px) 
+@media screen and (min-width: 1000px) 
 {
     span#burguer 
     {
-        text-align: start;
+        display: none;
     }
 
-    menu a 
+    menu 
     {
-        text-align: start;
-        padding-left: 20px;
+        display: block;
+    }
+
+    menu li
+    {
+        display: inline-block;
+        padding-bottom: 10px;
     }
 
     main
