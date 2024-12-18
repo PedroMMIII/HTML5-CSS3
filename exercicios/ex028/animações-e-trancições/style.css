@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {   
+        transform: scale(1.1) rotate(-5deg);
+    }
+    100%{
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-bottom: 4px solid #999;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
+.btn:hover {
+    background-color: #999;
+    border-bottom-color: #555;
+    color: #333;
+    animation: shake 1s linear 1;
+}
